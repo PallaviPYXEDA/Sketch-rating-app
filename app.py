@@ -103,7 +103,7 @@ if image:
 
     st.header("Portrait Rating")
     st.header("{}".format(PREDICTION_RATINGS[int(rating_model_predict[0])]))
-    st.header("Portrait percentage : ")
+    st.header("Portrait match percentage : ")
     percentage = "1"
     if rating ==1:
         percentage = "20%"
